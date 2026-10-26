@@ -1,0 +1,20 @@
+{
+  "name": "KAM",
+  "short_name": "KAM",
+  "icons": [
+    {
+      "src": "/kam-demo/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/kam-demo/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#2F1D1E",
+  "background_color": "#FFFFFF",
+  "display": "browser"
+}

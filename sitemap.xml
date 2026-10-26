@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/bg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/production/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/production/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/production/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/bg/production/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/production/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/production/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/projects/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/projects/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/projects/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/bg/projects/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/projects/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/projects/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/about/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/about/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/bg/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/about/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/about/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/contact/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/contact/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/bg/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/contact/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/contact/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/privacy/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/privacy/"/kam-demo/>
+  </url>
+  <url>
+    <loc>/bg/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="/kam-demo/privacy/"/kam-demo/>
+    <xhtml:link rel="alternate" hreflang="bg" href="/kam-demo/bg/privacy/"/kam-demo/>
+  </url>
+</urlset>
