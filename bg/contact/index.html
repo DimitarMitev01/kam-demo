@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script>try{var p=localStorage.getItem('kam-palette');if(/^[1-4]$/.test(p))document.documentElement.setAttribute('data-palette',p)}catch(e){}</script>
+
 <title>Контакт и запитване за производство | КАМ</title>
 <meta name="description" content="Изпратете на КАМ чертежи, техническа спецификация или информация за проекта. Отговаряме до 48 часа. Враца, България. +359 888 581 440.">
 <meta name="robots" content="noindex">
@@ -22,14 +22,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="/kam-demo/assets/fonts/montserrat-cyrillic-400-b2e276e2.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/kam-demo/assets/fonts/montserrat-cyrillic-600-12fe2b17.woff2" as="font" type="font/woff2" crossorigin>
 
-<link rel="stylesheet" href="/kam-demo/assets/css/main-ad14a13e.css">
-<script src="/kam-demo/assets/js/main-47cfa2c1.js" defer></script>
+<link rel="stylesheet" href="/kam-demo/assets/css/main-cc0a35d5.css">
+<script src="/kam-demo/assets/js/main-73520c1a.js" defer></script>
 <link rel="icon" href="/kam-demo/favicon.ico" sizes="32x32">
 <link rel="icon" href="/kam-demo/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/kam-demo/apple-touch-icon.png">
 <link rel="manifest" href="/kam-demo/site.webmanifest">
 <meta name="theme-color" content="#2F1D1E">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":["Organization","LocalBusiness"],"@id":"/kam-demo/#organization","name":"КАМ","legalName":"ЕТ „КАМ – Никола Стойков“","url":"/kam-demo/bg/","logo":"/kam-demo/icon-512.png","image":"/kam-demo/assets/og/og-bg-3e775c03.jpg","email":"kam@netbg.com","telephone":"+359888581440","address":{"@type":"PostalAddress","streetAddress":"ул. „Шипка“ № 7, Промишлена зона","postalCode":"3000","addressLocality":"Враца","addressCountry":"BG"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":["Organization","LocalBusiness"],"@id":"/kam-demo/#organization","name":"КАМ","legalName":"ЕТ „КАМ – Никола Стойков“","url":"/kam-demo/bg/","logo":"/kam-demo/icon-512.png","image":"/kam-demo/assets/og/og-bg-3e775c03.jpg","email":"sales@kam-bg.com","telephone":"+359888581440","address":{"@type":"PostalAddress","streetAddress":"ул. „Шипка“ № 7, Промишлена зона","postalCode":"3000","addressLocality":"Враца","addressCountry":"BG"},"sameAs":["https://www.linkedin.com/in/lyubomir-stoykov-46526b260/"]}</script>
 
 </head>
 <body class="page-contact">
@@ -145,6 +145,10 @@
       <p class="field__policy"><a href="/kam-demo/bg/privacy/">Политика за поверителност и бисквитки</a></p>
       <p class="field__error" id="err-consent" hidden></p>
     </div>
+    <div class="field field--wide field--captcha">
+      <altcha-widget name="altcha" challenge="/kam-demo/api/altcha.php" language="bg" configuration="{&quot;hideLogo&quot;:true,&quot;hideFooter&quot;:true,&quot;test&quot;:true}"></altcha-widget>
+      <p class="field__error" id="err-altcha" hidden></p>
+    </div>
   </div>
   <div class="form__footer">
     <button type="submit" class="btn btn--dark form__submit">Изпратете запитване</button>
@@ -152,7 +156,8 @@
   </div>
   <div class="form__status" role="status" aria-live="polite" data-form-status></div>
   <template data-icon-close><svg class="icon icon--close" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5l14 14M19 5L5 19"/kam-demo/></svg></template>
-  <script type="application/json" id="form-i18n">{"errors":{"required":"Моля, попълнете това поле.","email":"Моля, въведете валиден имейл адрес.","consent":"Моля, потвърдете съгласието си за обработка на данните.","fileType":"Този тип файл не се приема.","fileSize":"Файлът е твърде голям.","fileCount":"Можете да прикачите до 5 файла.","totalSize":"Общият размер на файловете е твърде голям.","rateLimit":"От вашата връзка са изпратени твърде много запитвания. Опитайте отново по-късно или ни пишете директно на kam@netbg.com."},"sending":"Изпращане…","success":"Благодарим ви. Запитването е изпратено — ще ви отговорим до 48 часа.","error":"Възникна грешка и запитването не беше изпратено. Опитайте отново или ни пишете директно на kam@netbg.com.","fileRemove":"Премахни файла","maxFiles":5,"maxFileSizeMB":10,"maxTotalSizeMB":20,"allowedExtensions":["pdf","dwg","dxf","xlsx","xls","docx","doc","jpg","jpeg","png","zip"]}</script>
+  <script type="application/json" id="form-i18n">{"errors":{"required":"Моля, попълнете това поле.","email":"Моля, въведете валиден имейл адрес.","consent":"Моля, потвърдете съгласието си за обработка на данните.","fileType":"Този тип файл не се приема.","fileSize":"Файлът е твърде голям.","fileCount":"Можете да прикачите до 5 файла.","totalSize":"Общият размер на файловете е твърде голям.","rateLimit":"От вашата връзка са изпратени твърде много запитвания. Опитайте отново по-късно или ни пишете директно на sales@kam-bg.com.","captcha":"Потвърдете, че не сте робот."},"captcha":{"label":"Не съм робот","verifying":"Проверява се…","verified":"Проверено","error":"Проверката не успя. Опитайте отново.","expired":"Проверката изтече. Опитайте отново.","verificationRequired":"Потвърдете, че не сте робот.","waitAlert":"Проверява се… моля, изчакайте.","loading":"Зарежда се…","reload":"Опитай отново","verify":"Провери","cancel":"Отказ"},"sending":"Изпращане…","success":"Благодарим ви. Запитването е изпратено — ще ви отговорим до 48 часа.","error":"Възникна грешка и запитването не беше изпратено. Опитайте отново или ни пишете директно на sales@kam-bg.com.","fileRemove":"Премахни файла","maxFiles":5,"maxFileSizeMB":10,"maxTotalSizeMB":20,"allowedExtensions":["pdf","dwg","dxf","xlsx","xls","docx","doc","jpg","jpeg","png","zip"]}</script>
+  <script src="/kam-demo/assets/js/altcha-b2023a2a.js" data-worker="/assets/js/altcha-sha-a7385783.js" defer></script>
 </form>
     </div>
     <aside class="inquiry__aside">
@@ -162,7 +167,7 @@
           <span>ЕТ „КАМ – Никола Стойков“</span>
           <span>ул. „Шипка“ № 7, Промишлена зона</span><span>3000 Враца, България</span>
           <a class="aside-link" href="tel:+359888581440"><svg class="icon icon--phone" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 3.5h2.6l1.4 4.3-2 1.4a12 12 0 0 0 6.2 6.2l1.4-2 4.3 1.4v2.6a1.9 1.9 0 0 1-2 1.9A16.8 16.8 0 0 1 4.6 5.5a1.9 1.9 0 0 1 2-2z"/kam-demo/></svg><span>+359 888 581 440</span></a>
-          <a class="aside-link" href="mailto:kam@netbg.com"><svg class="icon icon--mail" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6h17v12h-17z"/kam-demo/><path d="M3.5 6.5l8.5 6.5 8.5-6.5"/kam-demo/></svg><span>kam@netbg.com</span></a>
+          <a class="aside-link" href="mailto:sales@kam-bg.com"><svg class="icon icon--mail" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6h17v12h-17z"/kam-demo/><path d="M3.5 6.5l8.5 6.5 8.5-6.5"/kam-demo/></svg><span>sales@kam-bg.com</span></a>
         </address>
       </div>
       <div class="aside-block aside-block--dark on-dark">
@@ -214,7 +219,7 @@
         <div class="faq__answer"><p>Монтаж на място не се предлага. Доставяме продукцията сглобена или разглобена, опакована според изискванията на клиента. Транспортът се организира от клиента или се договаря чрез КАМ.</p></div>
       </details><details class="faq__item">
         <summary><span>Колко бързо ще получим отговор и какъв е срокът за изпълнение?</span><svg class="icon icon--plus faq__icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/kam-demo/><path d="M5 12h14"/kam-demo/></svg></summary>
-        <div class="faq__answer"><p>Отговаряме на запитвания до 48 часа. Срокът за изпълнение на серия зависи от обема и се потвърждава след одобрение на мострата — ориентировъчно <mark class="tbd">[TBD: 4–5?]</mark> седмици.</p></div>
+        <div class="faq__answer"><p>Отговаряме на запитвания до 48 часа. Срокът за изпълнение на серия зависи от обема и се потвърждава след одобрение на мострата — ориентировъчно 4–5 седмици.</p></div>
       </details><details class="faq__item">
         <summary><span>На какви езици можем да комуникираме?</span><svg class="icon icon--plus faq__icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/kam-demo/><path d="M5 12h14"/kam-demo/></svg></summary>
         <div class="faq__answer"><p>Български и английски.</p></div>
@@ -242,10 +247,15 @@
           <span>ЕТ „КАМ – Никола Стойков“</span>
           <span>ул. „Шипка“ № 7, Промишлена зона</span><span>3000 Враца, България</span>
           <a href="tel:+359888581440">+359 888 581 440</a>
-          <a href="mailto:kam@netbg.com">kam@netbg.com</a>
+          <a href="mailto:sales@kam-bg.com">sales@kam-bg.com</a>
         </address>
       </div>
-      
+      <div class="site-footer__col">
+            <h2 class="site-footer__title">Последвайте ни</h2>
+            <ul class="social">
+              <li><a href="https://www.linkedin.com/in/lyubomir-stoykov-46526b260/" rel="noopener" aria-label="LinkedIn"><svg class="icon icon--linkedin" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 3.5h17v17h-17z"/kam-demo/><path d="M8 10.5v6M8 7.5v.01M11.5 16.5v-6M11.5 13a2.5 2.5 0 0 1 5 0v3.5"/kam-demo/></svg></a></li>
+            </ul>
+          </div>
     </div>
     <div class="site-footer__bottom">
       <p>© 2026 ЕТ „КАМ – Никола Стойков“. Всички права запазени.</p>
@@ -268,36 +278,6 @@
     </div>
   </div>
 </section>
-<div class="palette-switcher" data-palette-switcher hidden>
-  <button type="button" class="palette-switcher__toggle" aria-expanded="false" aria-controls="palette-panel">
-    <svg class="icon icon--palette" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5a8.5 8.5 0 1 0 0 17c1.1 0 1.6-.8 1.6-1.6 0-1-.8-1.4-.8-2.3 0-.9.7-1.6 1.6-1.6h1.9a4.2 4.2 0 0 0 4.2-4.2C20.5 6.8 16.7 3.5 12 3.5z"/kam-demo/><circle cx="7.8" cy="11.5" r="1"/kam-demo/><circle cx="10.3" cy="7.6" r="1"/kam-demo/><circle cx="14.8" cy="7.8" r="1"/kam-demo/></svg><span class="visually-hidden">Цветова палитра</span>
-  </button>
-  <div class="palette-switcher__panel" id="palette-panel" hidden>
-    <fieldset>
-      <legend>Цветова палитра</legend>
-      <p class="palette-switcher__note">Само за демото — изберете палитра.</p>
-      <label class="palette-switcher__option">
-          <input type="radio" name="palette" value="1">
-          <span class="palette-swatch" data-palette="1" aria-hidden="true"><i></i><i></i><i></i></span>
-          <span>Bitter Chocolate</span>
-        </label><label class="palette-switcher__option">
-          <input type="radio" name="palette" value="2">
-          <span class="palette-swatch" data-palette="2" aria-hidden="true"><i></i><i></i><i></i></span>
-          <span>Deep Teal</span>
-        </label><label class="palette-switcher__option">
-          <input type="radio" name="palette" value="3">
-          <span class="palette-swatch" data-palette="3" aria-hidden="true"><i></i><i></i><i></i></span>
-          <span>Deep Teal + Evergreen</span>
-        </label><label class="palette-switcher__option">
-          <input type="radio" name="palette" value="4" checked>
-          <span class="palette-swatch" data-palette="4" aria-hidden="true"><i></i><i></i><i></i></span>
-          <span>Copper + Linen</span>
-        </label>
-    </fieldset>
-    <button type="button" class="palette-switcher__close" data-palette-close>
-      <svg class="icon icon--close" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5l14 14M19 5L5 19"/kam-demo/></svg><span class="visually-hidden">Затвори избора на палитра</span>
-    </button>
-  </div>
-</div>
+
 </body>
 </html>
